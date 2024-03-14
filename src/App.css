@@ -1,0 +1,92 @@
+.banner-card{
+    width:100vw;
+    height:20vh;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    position: relative;
+    color:white;
+}
+
+.banner-img{
+    height: 70vh;
+    width: 100vw;
+}
+
+.banner-title{
+    position: absolute;
+    top:45vh;
+    left: 5vw;
+}
+
+.banner-text{
+    position: absolute;
+    top:55vh;
+    left: 5vw;
+    height: 4.5rem;
+    overflow: hidden;
+    margin-right: 5vw;
+}
+
+.movies-list{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:1rem;
+    justify-content: center;
+}
+
+.moview-card{
+    width:20vw;
+    margin:1rem;
+    color:white;
+    position:relative;
+}
+
+.movies-title{
+    position: absolute;
+    top:1rem;
+    left:1rem;
+}
+
+.movies-btn{
+    position: absolute;
+    bottom: 2rem;
+}
+
+.movies-img{
+    height: 40vh;
+    width:20vw;
+}
+
+@media screen and(max-width:400px) {
+    .banner-card{
+    height:30vh;
+    }
+
+    .banner-img{
+        height:30vh;
+    }
+
+    .banner-title{
+        height: 12vh;
+        left:5vw;
+    }
+
+    .banner-text{
+        top:17vh;
+        left:5vw;
+    }
+
+    .movies-card{
+        width:40vw;
+        margin: 0.1rem;
+    }
+
+    .moview-button{
+        width:80%;
+    }
+
+    .movies-img{
+        width:40vw;
+    }
+}
